@@ -21,7 +21,7 @@
  * @property downloadfile     $downloadfile
  *
  * @property qkclass     $qkclass
- * @property wclass      $zwclass
+ * @property zwclass      $zwclass
  *
  *
  */

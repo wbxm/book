@@ -46,7 +46,7 @@ class Qkclass {
     //搜索结果
     public function getlist($keyword,$page=null){
         $searchurl = $this->baseurl.$this->searchurl."?invokemethod=search&q=%7B\"search\"%3A\"".$keyword."\"%2C\"sType\"%3A\"all\"%7D&";
-        if (isset($page)){
+        if ($page){
             $searchurl = $this->baseurl.$this->searchurl."?invokemethod=search&q=%7B\"search\"%3A\"".$keyword."\"%2C\"sType\"%3A\"all\"%2C\"page\"%3A\"".$page."\"%7D&&hidpage=0&&hfldSelectedIds=&";
         }
 
